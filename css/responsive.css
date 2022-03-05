@@ -1,0 +1,32 @@
+  @media (max-width:950px){  
+    /*950pxin altına düşünce telefonlar ve tabletler için*/
+    /*menü şekli değişecek*/
+    header{
+      display: none;
+    }
+
+    #header2{
+      display: inherit;
+      height: 3.5em;
+    }
+
+    #logo2:hover{
+      cursor: pointer;
+    }
+
+    #insta{
+      width: 21%;
+    }
+
+    #linked{
+      width: 20%;
+    }
+
+    #face{
+      width: 25%;
+    }
+
+    body{
+      padding: 0;
+    }
+  }

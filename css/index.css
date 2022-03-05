@@ -1,0 +1,517 @@
+#hakkimizda a{
+    color: #63b8ff;
+}
+
+/*ana iskelet*/
+body{
+    background-color:black;
+    padding: 1%; 
+}
+
+header{
+    z-index: 2; 
+    background-color:black;
+    width: 98%;
+    height: 3.5em;
+    position:sticky;
+    top: 0;
+}
+
+#header2{
+    display: none;
+    z-index: 2; 
+    background-color:black;
+    width: 100%;
+    height: 3.5em;  
+    position:sticky;
+    top: 0;
+}
+
+#tanitim{
+    position: absolute;
+    opacity: 0.4;
+    z-index: 1;
+    width: 97%;
+    height: 35em;
+    border:1px solid black; 
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-right: 1%;
+}
+
+#tanitim2{
+    border: 1px solid black;
+    z-index: 2;
+    width: 98%;
+    height: 35em;
+}
+
+main{
+    position: relative;
+    width: 98%;
+    height: auto;
+    margin-bottom: 1%;
+    margin-top: 10%;  
+}
+
+footer{
+    margin-bottom: 0;
+    width: 98%;
+    height: 2em;
+}
+
+/*header kısmı*******************************/
+#logo{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+#logo2{
+    width: 30%;
+    height: 100%;
+}
+
+#logo img{
+    width: 45px ;/*logoda sorun olursa bunları değiştir*/
+    height: 45px;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+#logo2 img{
+    width: 45px ;/*logoda sorun olursa bunları değiştir*/
+    height: 45px;
+    margin-left: 50%;
+    margin-top: 2%;
+    border:2px solid rgba(72,118,255,0.5); 
+    border-radius: 50%;
+}
+
+nav{ 
+    float: left;
+    width: 78%;
+    height: 100%;
+}
+
+#navbar2{ 
+    display: none;
+    width: 40%;
+    height: 68%;
+    margin-left: 1%;
+}
+
+nav ul li{
+    float: left; 
+    text-align: center;
+    margin-left: 5%;   
+}
+
+#navbar2 ul li{ 
+    text-align: left;  
+}
+
+nav ul{
+    list-style-type: none;  
+}
+
+#navbar2 ul{
+    list-style-type: none;  
+}
+
+ul li a{
+    vertical-align: middle;
+    text-decoration: none;
+    color:ghostwhite;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition:all 5s; 
+    font-size: 12px;
+    transition-property: font-size;
+    transition-duration:0.7s;    
+}
+
+#navbar2 ul li a{
+    font-size: 10px;
+}
+
+ul li a:hover{
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-color: #63b8ff;    
+}
+
+/*tanıtım kısmı****************************************/
+#tanitim2 p{
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 0.4px;
+    word-spacing: 10px;
+    line-height: 30px;
+    font-size: 30px;
+    color: white;
+    margin-top: 18%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#tanitim2 #ikincip{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+/*main kısmı****************************************/
+.hakkimizda{
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+    margin-left:15%;
+    margin-right:15%;
+    letter-spacing: 0.4px;
+    word-spacing: 5px;
+    line-height: 25px;
+    font-size: 13px;
+    color: #D6D6D6;
+    text-align: justify; 
+    text-indent: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#indentYok{
+    text-indent: 0;
+}
+
+#aciklama{
+    margin: auto;
+    width: 100%;
+    height: 70em;
+}
+
+.aciklama{
+    width: 49%;
+    height: 100%;
+    float: left;
+    margin: auto;
+}
+
+.aciklama img{
+    width: 30px;
+    height: 30px;
+    margin-top: 5%;
+    margin-left: 45%;
+    margin-bottom: 1%;
+}
+
+.aciklama div{ 
+    border: 1px solid rgba(15, 5, 53, 0.2);
+    margin-left: 2%;
+    margin-bottom: 6%;
+    width:95%;
+    height:auto;
+    border-radius: 30%;
+}
+
+#aciklama p{
+    padding-left:5%;
+    padding-right:5%;
+    vertical-align: middle;
+    text-align: center;
+    letter-spacing: 0.4px;
+    word-spacing: 5px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #D6D6D6;
+    text-align: justify; 
+    text-indent: 8px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nod1{
+    margin-top: 10%;
+}
+
+#yenilik{
+    margin-top: 14%;
+}
+
+#nod2{
+    margin-top: 34%;
+}
+
+/***********************************/
+#gizli{
+    height: 2em;
+    width: 2.2%;
+    margin-bottom: 1%;
+    margin-left: 45%;
+}
+
+#gizli img{
+    width: 100%;
+    height: 100%;
+}
+
+/*footer kısmı kısmı********************************/
+footer #sosyalmedya{
+    width: 20%;
+    height: 1em;
+    margin-left:42%;
+    margin-right:40%;
+}
+
+#insta{
+    float: left;
+    width: 10%;
+    margin-right: 10%;  
+}
+
+#linked{
+    float: left;
+    width: 9%;  
+    margin-right: 10%; 
+}
+
+#face{
+    float: left;
+    width: 12%; 
+}
+/****************************************************************/
+@media (max-width:950px){  
+    /*950pxin altına düşünce telefonlar ve tabletler için*/
+    /*menü şekli değişecek*/
+    header{
+      display: none;
+    }
+
+    #header2{
+      display: inherit;
+      height: 3.5em;
+    }
+
+    #logo2:hover{
+      cursor: pointer;
+    }
+
+    #insta{
+      width: 21%;
+    }
+
+    #linked{
+      width: 20%;
+    }
+
+    #face{
+      width: 25%;
+    }
+
+    body{
+      padding: 0;
+    }
+  }
+
+
+@media (max-width:480px){  /*telefonlar için*/ 
+    #tanitim{
+      width: 95%;
+      height: 10em;
+    }
+
+    #tanitim2{
+      width: 95%;
+      height: 10em;
+    }
+
+    #tanitim2 p{
+      font-size: 15px;
+      line-height: 15px;
+    }
+
+    #tanitim2 #ikincip{
+      font-size: 8px;    
+    }
+  
+    .hakkimizda{
+      word-spacing: 2px;
+      margin-left:10%;
+      margin-right:10%;
+      line-height: 15px;
+      font-size: 10px;
+      text-indent: 5px;
+    } 
+    
+    #aciklama{
+        height: 120em;
+    }
+
+    #ilkAciklama{
+        width: 98%;
+        height: 55%;
+        float: none;
+    }
+
+    #ikinciAciklama{
+        width: 98%;
+        height: 45%;
+        float: none;
+    }
+
+    #aciklama p{ 
+        word-spacing: 2px;
+        line-height: 24px;
+        font-size: 10px; 
+    }
+
+    .nod1{
+        width:95%;
+        height:30%;
+        margin-top: 8%;
+    }
+
+    #yenilik{
+        height:15%;
+        padding-top: 10%;
+        margin-top: 1%;
+    }
+    
+    #nod2{
+        margin-top: 5%;
+        height:30%;
+        width:95%;
+    }
+
+    #marjinVer{
+        margin-top: 65%;
+    }
+
+    #gizli{
+        width: 7%;   
+    }
+}
+
+@media (max-width:1024px) and (min-width:480px){  /*tabletler için*/ 
+    #tanitim{
+        width: 95%;
+        height: 15em;
+    }
+  
+    #tanitim2{
+        width: 95%;
+        height: 15em;
+    }
+  
+    #tanitim2 p{
+        font-size: 18px;
+        margin-top: 12%;
+    }
+  
+    #tanitim2 #ikincip{
+        font-size: 10px;    
+    }
+    
+    .hakkimizda{
+        margin-left:10%;
+        margin-right:10%;
+        line-height: 25px;
+        font-size: 11px;
+    } 
+
+    #aciklama{
+        height: 85em;
+    }
+
+    #ilkAciklama{
+        width: 98%;
+        height: 60%;
+        float: none;
+    }
+
+    #ikinciAciklama{
+        width: 98%;
+        height: 40%;
+        float: none;
+    }
+
+    .aciklama div{
+        width:95%;
+        height:31%;
+    }
+
+    #aciklama p{ 
+        line-height: 24px;
+        font-size: 10px; 
+    }
+
+    .nod1{
+        margin-top: 0%;
+    }
+    
+    #nod2{
+        margin-top: 0%;
+    }
+
+    #gizli{
+        width: 4%;   
+    }
+
+    #marjinVer{
+        margin-top: 15%;
+    }
+
+    #yenilik{
+        margin-top: 1%;
+    }
+}
+
+
+@media (max-width:680px) and (min-width:480px){
+    #gizli{
+        width: 6%;   
+    }
+}
+
+@media (max-width:880px) and (min-width:680px){
+    #gizli{
+        width: 5%;   
+    }
+}
+@media (max-width:1224px) and (min-width:1024px){
+    #gizli{
+        width: 3%;   
+    }
+}
+
+@media (max-width:700px) and (min-width:680px){
+    #aciklama{
+        height: 95em;
+    }
+
+    .nod1{
+        margin-top: 0%;
+    }
+    
+    #nod2{
+        margin-top: 0%;
+    }
+
+    #marjinVer{
+        margin-top: 25%;
+    }
+}
+
+@media (max-width:680px) and (min-width:480px){
+    #aciklama{
+        height: 110em;
+    }
+
+    .nod1{
+        margin-top: 0%;
+    }
+    
+    #nod2{
+        margin-top: 0%;
+    }
+
+    #marjinVer{
+        margin-top: 35%;
+    }
+}

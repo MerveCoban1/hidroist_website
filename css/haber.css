@@ -1,0 +1,532 @@
+#haber a{
+    color: #63b8ff;
+}
+
+/*ana iskelet*/
+body{
+    background-color:black;
+    padding:1%;
+}
+
+header{
+    z-index: 4;
+    background-color:black;
+    width: 98%;
+    height: 3.5em;
+    position:sticky;
+    top: 0;
+}
+
+#header2{
+    display: none;
+    z-index: 4; 
+    background-color:black;
+    width: 100%;
+    height: 15.5em;
+    position:sticky;
+    top: 0;
+}
+
+main{
+    width: 65%;
+    height: 70em;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.solaYasla{
+    float: left;
+}
+
+footer{
+    margin-bottom: 0;
+    width: 98%;
+    height: 2em;
+}
+
+/*header kısmı*******************************/
+#logo{
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+#logo2{
+    width: 30%;
+    height: 100%;
+}
+
+#logo img{
+    width: 45px ;/*logoda sorun olursa bunları değiştir*/
+    height: 45px;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+#logo2 img{
+    width: 45px ;/*logoda sorun olursa bunları değiştir*/
+    height: 45px;
+    margin-left: 50%;
+    margin-top: 2%;
+}
+
+nav{
+    float: left;
+    width: 78%;
+    height: 100%;
+}
+
+#navbar2{ 
+    display: none;
+    margin-left: 1%;
+    width: 40%;
+    height: 68%;
+}
+
+nav ul li{
+    float: left; 
+    text-align: center;
+    margin-left: 5%;   
+}
+
+#navbar2 ul li{ 
+    text-align: left;  
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+#navbar2 ul{
+    list-style-type: none;  
+}
+
+ul li a{
+    vertical-align: middle;
+    text-decoration: none;
+    color:ghostwhite;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition:all 5s; 
+    font-size: 12px;
+    transition-property: font-size;
+    transition-duration:0.7s;  
+}
+
+#navbar2 ul li a{
+    font-size: 10px;
+}
+
+ul li a:hover{
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-color: #63b8ff;    
+}
+
+/*main kısmı****************************************/
+#satir{
+    width: 80%;
+    height: 12.5em;
+    border-top: 2px solid #01192b;
+    border-bottom: 2px solid #01192b;
+    margin-left: 10%;
+    
+    z-index: 2;
+}
+#satir2{
+    display: none;
+    width: 80%;
+    height: 12.5em;
+    border-top: 2px solid #01192b;
+    border-bottom: 2px solid #01192b;
+    margin-left: 10%;
+}
+#satir3{
+    display: none;
+    width: 80%;
+    height: 12.5em;
+    border-top: 2px solid #01192b;
+    border-bottom: 2px solid #01192b;
+    margin-left: 10%;
+}
+
+.solTus{
+    margin-right: 1%;
+    margin-top: 8%;
+    float: left;
+    width: 2%;
+    height: 16%;
+}
+.solTus img{
+    width: 100%;
+    height: 100%;   
+}
+
+.sagTus{
+    position: relative;
+    margin-top: 8%;
+    float: left;
+    width: 2%;
+    height: 16%;
+    margin-left: 3%;
+    z-index: 3;
+}
+
+.sagTus img{
+    width: 100%;
+    height: 100%;   
+}
+.sagTus:hover{
+    cursor: pointer;
+}
+.solTus:hover{
+    cursor: pointer;
+}
+
+.haber{
+    margin-top: 2%;
+    width: 21%;
+    height: 80%;
+    float: left;
+    margin-left: 1%;   
+}
+
+.haber img{   
+    width: 16%;
+    height: 24%;
+}
+
+.haberResmiSinifi{
+    position:absolute;
+    width: 100%;  
+    height: 100%;  
+    z-index: 1;
+}
+
+.haberYazisiSinifi{
+    display: none;
+    position:absolute;
+    width: 100%;  
+    height: 100%;
+    z-index: 2;
+}
+
+.haberYazisiSinifi a{
+    margin-left: 5%;
+    color:#D6D6D6;
+    font-size: 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.yazi{
+    margin-top: 1%;
+    color:#D6D6D6; 
+    padding-left: 2%;
+    z-index: 2;
+    overflow: hidden;
+    width:14%;
+    letter-spacing: 0.4px;
+    word-spacing: 5px;
+    line-height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#satir4{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top:5%;
+    width: 80%;
+    height: 20em;
+    border-bottom: 1px solid #01192b;
+    border-top: 1px solid #01192b;
+    margin-left: 10%;
+}
+
+#satir4 div{
+    position: relative;
+    z-index: 3;
+    float:left;
+    width: 48%;
+    height: 96%;
+}
+
+#satir4 img{
+    margin-left: 5%;
+    width: 100%;
+    height: 80%;
+}
+
+#satir4 p{
+    z-index: 2;
+    overflow: hidden;
+    width: 80%;
+    height: 60%;
+    color:#D6D6D6; 
+    letter-spacing: 0.4px;
+    word-spacing: 5px;
+    line-height: 20px;
+    font-size: 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 6%;
+    margin-left: 20%;
+    
+}
+
+#satir4 a{
+    margin-left: 20%;
+    font-size: 12px;
+    color: #D6D6D6;
+}
+
+
+#satirSon{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top:5%;
+    width: 70%;
+    height: 35em;
+    border-bottom: 1px solid #01192b;
+    border-top: 1px solid #01192b;
+    margin-left: 5%;
+}
+
+#satirSon img{
+    width:100%;
+    height: 100%;
+    margin-left: 10%;
+    border-bottom: 1px solid #01192b;
+}
+
+#youtube iframe{
+    margin-bottom: 10%;
+}
+
+#youtube{
+    position: relative;
+    z-index: 1;
+    margin-left: 7%;
+    border-top: 2px solid #01192b;
+    border-bottom: 2px solid #01192b;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height:720px;
+    width:18%;
+    margin-top:5%;
+    overflow: hidden;
+}
+
+/*footer kısmı kısmı********************************/
+footer #sosyalmedya{
+    width: 20%;
+    height: 1em;
+    margin-left:42%;
+    margin-right:40%;
+}
+#insta{
+    float: left;
+    width: 10%;
+    margin-right: 10%;  
+}
+#linked{
+    float: left;
+    width: 9%;  
+    margin-right: 10%; 
+}
+#face{
+    float: left;
+    width: 12%; 
+}
+/**********************************************/
+@media (max-width:480px){
+    .solaYasla{
+        float: none;
+    }
+    
+    #gizleMobilde{
+        display: none;
+    }
+
+    main{
+        height: 60em;
+        margin-top: 20%;
+        width: 90%;
+    }
+    
+    #satir4{
+        width: 80%;
+        height: 30em;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top:5%;
+        margin-left: 10%;
+    }
+    
+    #satir4 div{
+        float: none;
+        width: 95%;
+        height: 50%;
+    }
+    
+    #satir4 img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #satir4 p{
+        width: 90%;
+        line-height: 20px;
+        font-size: 11px;
+        margin-left: 5%;
+    } 
+
+    #satir4 a{
+        margin-left: 5%;
+        font-size: 12px;
+    } 
+
+    #satirSon{
+        width: 100%;
+        height: 20em;
+        margin-left: 1%;
+    }
+    #satirSon img{
+        width:90%;
+        margin-left: 5%;
+    }
+    
+    #youtube{
+        display: none;
+    }
+    
+}
+
+@media (max-width:1024px) and (min-width:480px){
+    .solaYasla{
+        float: none;
+    }
+
+    .haberYazisiSinifi{
+        display: block;
+    } 
+
+    .haberResmiSinifi{
+        opacity: 0.3;
+    }
+    
+    main{
+        height: 60em;
+        margin-top: 20%;
+        width: 90%;
+    }
+
+    #satir{
+        width: 90%;
+        height: 44em;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    #satir2{
+        width: 90%;
+        height: 44em;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+
+    #satir3{
+        width: 90%;
+        height: 44em;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+    
+    .solTus{
+        margin-left: 45%;
+        width: 5%;
+        height: 6%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+
+    .sagTus{
+        margin-top: 0%;
+        width: 5%;
+        height: 6%;
+        margin-left: 45%;
+    }
+    
+    .haber{
+        margin-bottom: 1%;
+        margin-left: 25%;
+        width: 55%;
+        height: 18.5%;  
+    }
+    
+    .haber img{   
+        width: 36%;
+        height: 23%;
+    }
+    
+    .haberYazisiSinifi a{
+        font-size: 11px;
+    }
+    
+    .yazi{
+        line-height: 15px;
+        width:32%;
+        margin-top: 3%; 
+    }
+    
+    #satir4{
+        width: 80%;
+        height: 30em;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top:5%;
+        margin-left: 10%;
+    }
+    
+    #satir4 div{
+        float: none;
+        width: 95%;
+        height: 50%;
+    }
+    
+    #satir4 img{
+        width: 80%;
+        height: 100%;
+    }
+    
+    #satir4 p{
+        width: 90%;
+        line-height: 20px;
+        font-size: 11px;
+        margin-left: 5%;
+    } 
+
+    #satir4 a{
+        margin-left: 5%;
+        font-size: 12px;
+    } 
+
+    #satirSon{
+        width: 100%;
+        height: 20em;
+        margin-left: 1%;
+    }
+    #satirSon img{
+        width:70%;
+        margin-left: 12%;
+    }
+
+    #youtube{
+        display: none;
+    }
+
+}
+
+
+
